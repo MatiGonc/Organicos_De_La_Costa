@@ -1,0 +1,53 @@
+@media only screen and (min-width:768px) {
+    
+    header {
+        height: 350px;
+
+        nav{
+            display: inline-block;
+        }   
+        
+        div {
+            #logo {
+                height: 250px;
+                width: 550px;
+            }
+        }
+
+        #menuMobile{
+            display: none;
+        }
+    }  
+
+    main {
+        section {
+
+            div {
+                //NO ME TOMA EL TAMAÑO
+                .titular-1 {
+                    font-size: 60px;
+    }
+            }
+
+            div {
+                .titular-2 {
+                    font-size: 60px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header {
+        height: 500px;
+
+        div {
+            #logo {
+                height: 400px;
+                width: 800px;
+            }
+        }
+    }
+}

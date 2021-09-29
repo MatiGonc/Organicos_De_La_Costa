@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Keywords-->
+    <meta name="description" content="Llena el formulario que corresponda, particular o empresa y te responderemos a la brevedad!">
+    <meta name="keywords" content="Productos organicos, Organicos, Verduras organicas, Verduras, Frutas organicas, Frutas, Hierbas frescas, Congelados, Alimentacion saludable, Saludable, Comida saludable, Vida sana, Distribucion de productos">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
+
+    <!--Main Css-->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!--Scss-->
+    <link rel="stylesheet" href="../css/mainScss.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  
+    <title>Orgánicos de la Costa - Contacto</title>
+
+</head>
+<body>
+
+    <!--Header-->
+    <header id="header">
+
+        <!--Navegador-->
+        <nav role="navigation">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-bolder" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success fw-bolder" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-warning fw-bolder" href="servicios.html" aria-expanded="false">Servicios</a>
+                    <ul class="dropdown-menu bg-black">
+                        <li>
+                            <a class="text-danger fw-bolder" href="servicios.html #particulares">Particulares</a>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bolder" href="servicios.html #empresas">Empresas</a>
+                        </li>
+                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-danger fw-bolder" href="contacto.html" aria-expanded="false">Contacto</a>
+                    <ul class="dropdown-menu bg-black">
+                        <li>
+                            <a class="text-success fw-bolder" href="contacto.html #formularioParticulares">Particulares</a>
+                        </li>
+                        <li>
+                            <a class="text-warning fw-bolder" href="contacto.html #formularioEmpresas">Empresas</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success fw-bolder" href="store/tiendaMain.html">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning fw-bolder" href="#footer">Redes sociales</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Logo Header-->
+        <div>
+            <img id="logo" src="../img/logoodlc.png" alt="Logo Organicos de la Costa">
+        </div>
+
+        <!--Menu Mobile-->
+        <div class="dropdown" id="menuMobile">
+            <a class="btn btn-info dropdown-toggle text-success fw-bolder" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+          
+            <ul class="dropdown-menu bg-black" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item text-warning fw-bolder" href="../index.html">Inicio</a></li>
+              <li><a class="dropdown-item text-danger fw-bolder" href="nosotros.html">Nosotros</a></li>
+              <li><a class="dropdown-item text-success fw-bolder" href="servicios.html">Servicios</a></li>
+              <li><a class="dropdown-item text-warning fw-bolder" href="contacto.html">Contacto</a></li>
+              <li><a class="dropdown-item text-danger fw-bolder" href="store/tiendaMain.html">Tienda</a></li>
+              <li><a class="dropdown-item text-success fw-bolder" href="#footer">Redes Sociales</a></li>
+            </ul>
+        </div>
+        
+    </header>
+
+    <!--Main-->
+    <main class="main">
+
+        <!--Breadcrumb-->
+        <section>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ol>
+              </nav>
+        </section>
+
+        <section class="conteiner">
+
+            <div class="row">
+                <h1 class="titular-1">¡Escribinos por cualquier consulta y te responderemos a la brevedad!</h1>
+            </div>
+
+            <!--Formulario Particulares-->
+            <div class="row d-flex justify-content-center">
+                <form id="formularioParticulares" action="" class="p-3 mb-2 bg-success text-white border border-warning border-3">
+                    <h2 class="text-warning">Particulares</h2>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-warning">E-mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label text-warning">Consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary mb-3 btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
+
+                </form>
+            </div>
+
+            <!--Formulario Empresas-->
+            <div class="row d-flex justify-content-center">
+                <form id="formularioEmpresas" action="" class="p-3 mb-2 bg-danger text-white border border-warning border-3">
+                    <h2 class="text-warning">Empresas</h2>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-warning">E-mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label text-warning">Consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary mb-3 btn btn-warning">Enviar</button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">¡Muchas gracias!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Su mensaje ha sido enviado, le responderemos a la brevedad.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Entendido</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        
+        </section>
+
+        <section class="conteiner">
+
+            <div class="row d-flex justify-content-center">
+                <p class="titular-2">¡O pasa a visitarnos por nuestro local!</p>
+            </div>
+
+            <!--Mapa-->
+            <div class="row d-flex justify-content-center">
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.1316406746464!2d-55.97199678423124!3d-34.827782576896226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f89af8e551e45%3A0xad111a317922d940!2sOrg%C3%A1nicos%20de%20la%20Costa!5e0!3m2!1ses!2suy!4v1629319149765!5m2!1ses!2suy" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+        </section>
+
+        <!--Breadcrumb-->
+        <section>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ol>
+              </nav>
+        </section>
+       
+    </main>
+    
+    <!--Footer-->
+    <footer id="footer" class="conteiner d-flex flex-column justify-content-center">
+        <div class="row">
+            <strong class="col-xs-12 fs-1 text-black">¡Siguenos en nuestras redes sociales!</strong>
+        </div>
+
+        <!--Iconos Redes-->
+        <div class="row">
+            <ul id="redes" class="col-xs-4">
+
+                <li>
+                    <a id="logoFacebook" href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="logoInstagram" href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="logoPinterest" href="https://www.pinterest.com/" target="_blank">
+                        <i class="fab fa-pinterest-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+       
+    </footer>
+    
+    <script src="../js/bootstrap.bundle.js"></script>  
+</body>
+</html>

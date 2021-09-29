@@ -1,0 +1,101 @@
+header {
+  height: 250px;
+  background-color: #07a307;
+  background-image: url(../img/background-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 10px;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  header nav {
+    display: none; }
+    header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      header nav ul li {
+        display: inline-block;
+        position: relative;
+        transition: all 2s; }
+        header nav ul li ul {
+          position: absolute;
+          display: none;
+          margin-top: 2px; }
+          header nav ul li ul li {
+            display: block; }
+        header nav ul li a {
+          background-color: black;
+          color: white;
+          display: block;
+          padding: 5px 10px;
+          text-decoration: none;
+          font-family: "Montserrat" sans-serif; }
+  header div #logo {
+    animation-name: rotarLogo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 0s; }
+
+@keyframes rotarLogo {
+  0% {
+    transform: rotate(5deg); }
+  25% {
+    transform: rotate(-5deg); }
+  50% {
+    transform: rotate(5deg); }
+  75% {
+    transform: rotate(-5deg); }
+  100% {
+    transform: rotate(5deg); } }
+
+ul li:hover ul {
+  display: block; }
+
+#footer {
+  background-image: linear-gradient(to top, red, yellow, green);
+  border: solid 10px;
+  border-color: black;
+  height: 200px;
+  text-align: center;
+  margin-top: 20px; }
+  #footer div #redes {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none; }
+    #footer div #redes li #logoFacebook {
+      font-size: 5rem;
+      color: #5a5af0; }
+    #footer div #redes li #logoInstagram {
+      font-size: 5rem;
+      color: black; }
+    #footer div #redes li #logoPinterest {
+      font-size: 5rem;
+      color: #f32222; }
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 350px; }
+    header nav {
+      display: inline-block; }
+    header div #logo {
+      height: 250px;
+      width: 550px; }
+    header #menuMobile {
+      display: none; }
+  main section div .titular-1 {
+    font-size: 60px; }
+  main section div .titular-2 {
+    font-size: 60px; } }
+
+@media only screen and (min-width: 1024px) {
+  header {
+    height: 500px; }
+    header div #logo {
+      height: 400px;
+      width: 800px; } }
