@@ -64,13 +64,13 @@ body {
     justify-content: space-evenly;
     align-items: center;
     text-align: center; }
-    body #main section div .titular-1 {
+    body #main section .titular-1 {
       font-family: "Satisfy", sans-serif;
       text-align: center;
       color: #e60808;
       font-size: 35px;
       padding: 5vw; }
-    body #main section div .titular-2 {
+    body #main section .titular-2 {
       font-family: "Satisfy", sans-serif;
       text-align: center;
       color: #eeee08;

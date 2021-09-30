@@ -20,21 +20,20 @@
     }  
 
     main {
+// Not toma los tmaños
         section {
-
+            
             div {
-                //NO ME TOMA EL TAMAÑO
                 .titular-1 {
                     font-size: 60px;
-    }
+                }
             }
-
+    
             div {
                 .titular-2 {
                     font-size: 60px;
                 }
             }
-            
         }
     }
 }
