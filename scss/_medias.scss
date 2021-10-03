@@ -19,23 +19,106 @@
         }
     }  
 
-    main {
-// Not toma los tmaños
+    #main {
+
         section {
             
             div {
                 .titular-1 {
                     font-size: 60px;
                 }
-            }
-    
-            div {
+
                 .titular-2 {
                     font-size: 60px;
                 }
             }
+    
+            
+        }
+
+        .parrafoMain {
+            font-size: 25px;
+            padding: 0 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            
+        }
+
+        section {
+
+            #imgCampo {
+                height: 400px;
+                width: 600px;
+            } 
+            
+            #imgCanasta {
+                height: 400px;
+                width: 600px;
+            }
+
+            div {
+
+                .parrafoPages {
+                    font-size: 25px;
+                }           
+            }
+        }
+//NO ME DEJA CAMBIAR EL TAMAñO DE LAS IMAGENES!!!!!!!!!!!!
+        #particulares {
+            .flexFotos {
+                div {
+                    .fotosServicios {
+                        height: 450px;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+
+        #empresas {
+            .flexFotos {
+                div {
+                    .fotosServicios {
+                        height: 450px;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+    
+    #footer {
+        height: 300px;  
+        margin-top: 0px;
+
+        .row {
+
+            #redes {
+
+                li {
+
+                    #logoFacebook {
+                        font-size: 7rem;
+                    }
+
+                    #logoInstagram {
+                        font-size: 7rem;
+                    }
+                
+                    #logoPinterest {
+                        font-size: 7rem;
+                    }
+                }
+            }
         }
     }
+
+    
 }
 
 @media only screen and (min-width:1024px) {
@@ -46,6 +129,106 @@
             #logo {
                 height: 400px;
                 width: 800px;
+            }
+        }
+    }
+
+    #main {
+
+        section {
+
+            div {
+                .titular-1 {
+                    font-size: 80px;
+                }
+            
+                .titular-2 {
+                    font-size: 60px;
+                }
+
+                .parrafoPages {
+                    font-size: 30px;
+                }
+            }
+
+            #imgCampo {
+                height: 600px;
+                width: 900px;
+            }
+            
+            #imgCanasta {
+                height: 600px;
+                width: 900px;
+            }
+        }
+
+        .parrafoMain {
+            font-size: 40px;
+
+            //no me toma el tama@o img!!!!!!!!!!!!!!!!
+            #imgMain {
+                height: 900px;
+                width: 650px;
+            }
+        }
+//no me toma tama►4o fotos!!!!!!!!!!!!!!!!!!!!!!!!!!
+        #empresas {
+            
+            .flexFotos {
+
+                div {
+
+                    div{
+                        .fotosServicios {
+                            height: 650px;
+                            width: 450px;
+                        }
+                    }
+                }
+            }
+        }
+
+        section {
+
+            div {
+
+                #formularioParticulares {
+                    width: 70vw;
+                }
+            
+                #formularioEmpresas {
+                    width: 70vw;
+                }
+
+                #mapa {
+                    width: 60vw;
+                    height: 60vw;
+                }
+            }
+        }
+    }
+    
+    #footer {
+        height: 500px;
+
+        .row {
+
+            #redes {
+
+                li {
+
+                    #logoFacebook {
+                        font-size: 12rem;
+                    }
+
+                    #logoInstagram {
+                        font-size: 12rem;
+                    }
+                
+                    #logoPinterest {
+                        font-size: 12rem;
+                    }
+                }
             }
         }
     }

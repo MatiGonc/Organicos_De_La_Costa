@@ -3,9 +3,14 @@
     border: solid 10px;
     height: 200px;
     text-align: center;  
-    margin-top: 20px;
+    margin-top: 10px;
     
     div {
+
+        h3 {
+            font-size: 25px;
+            padding-top: 20px;
+        }
         #redes {
             display: flex;
             flex-flow: row nowrap;

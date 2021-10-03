@@ -6,15 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Keywords-->
+    <!--Description y Keywords-->
     <meta name="description" content="Esta es la categoria Frutas de la tienda online de Organicos de la Costa, una de nuestras 6 categorias de productos organicos.">
     <meta name="keywords" content="Productos organicos, Organicos, Verduras organicas, Verduras, Frutas organicas, Frutas, Hierbas frescas, Congelados, Alimentacion saludable, Saludable, Comida saludable, Vida sana, Distribucion de productos">
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="../../css/bootstrap/bootstrap.css">
-
-    <!--Main Css-->
-    <link rel="stylesheet" href="../../css/main.css">
 
     <!--Scss-->
     <link rel="stylesheet" href="../../css/mainScss.css">
@@ -83,7 +80,7 @@
 
         <!--Menu Mobile-->
         <div class="dropdown" id="menuMobile">
-            <a class="btn btn-info dropdown-toggle text-success fw-bolder" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="btn btn-info dropdown-toggle text-danger fw-bolder" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
               Menu
             </a>
           
@@ -99,15 +96,15 @@
  
     </header>
 
-    <main>
+    <main id="main">
 
         <!--Breadcrumb-->
-        <section>
+        <section class="menuFacilNavegacion">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="../../index.html">Inicio</a></li>
-                  <li class="breadcrumb-item"><a href="tiendaMain.html">Tienda</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Categoria Frutas</li>
+                  <li class="breadcrumb-item"><a href="../../index.html" class="pagAnteriores text-success fw-bolder">Inicio</a></li>
+                  <li class="breadcrumb-item"><a href="tiendaMain.html" class="pagAnteriores text-warning fw-bolder">Tienda</a></li>
+                  <li class="breadcrumb-item active text-danger fw-bolder" aria-current="page">Categoria Frutas</li>
                 </ol>
               </nav>
         </section>
@@ -121,13 +118,10 @@
                 </a>
               
                 <ul class="dropdown-menu bg-black" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item text-success fw-bolder" href="catVerduras.html">Verduras</a></li>
-                  <li><a class="dropdown-item text-warning fw-bolder" href="catFrutas.html">Frutas</a></li>
-                  <li><a class="dropdown-item text-danger fw-bolder" href="catHierbas.html">Hierbas frescas</a></li>
-                  <li><a class="dropdown-item text-success fw-bolder" href="catEnvasados.html">Envasados</a></li>
-                  <li><a class="dropdown-item text-warning fw-bolder" href="catBebibles.html">Bebibles</a></li>
-                  <li><a class="dropdown-item text-danger fw-bolder" href="catCongelados.html">Congelados</a></li>
-
+                  <li><a class="text-success fw-bolder" href="catVerduras.html">Verduras</a></li>
+                  <li><a class="text-warning fw-bolder" href="catFrutas.html">Frutas</a></li>
+                  <li><a class="text-danger fw-bolder" href="catHierbas.html">Hierbas frescas</a></li>
+                  
                 </ul>
               </div>
             
@@ -141,76 +135,76 @@
             </div>
 
             <div class="items row gy-5">
-                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15">
-                    <img src="../../img/productos/banana.jpg" alt="Banana" class="item-image rounded-circle" height="250" width="250">
+                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15 d-flex flex-column nowrap justify-content-center align-items-center">
+                    <img src="../../img/productos/banana.jpg" alt="Banana" class="item-image rounded-circle border border-5 border-success" height="250" width="250">
                     <strong class="item-title">Banana $/500g</strong>
-                    <div class="item-details">
+                    <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$70</strong>
-                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-success fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                     
                 </div>
     
-                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15">
-                    <img src="../../img/productos/frutillas.jpg" alt="Boniato Criollo" class="item-image rounded-circle" height="250" width="250">
+                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15 d-flex flex-column nowrap justify-content-center align-items-center">
+                    <img src="../../img/productos/frutillas.jpg" alt="Boniato Criollo" class="item-image rounded-circle border border-5 border-warning" height="250" width="250">
                     <strong class="item-title">Frutilla $/500g</strong>
-                    <div class="item-details">
+                    <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$190</strong>
-                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info text-warning fw-bolder addToCart">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
-                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15">
-                    <img src="../../img/productos/manzana-roja.jpg" alt="Boniato Blanco" class="item-image rounded-circle" height="250" width="250">
+                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15 d-flex flex-column nowrap justify-content-center align-items-center">
+                    <img src="../../img/productos/manzana-roja.jpg" alt="Boniato Blanco" class="item-image rounded-circle border border-5 border-danger" height="250" width="250">
                     <strong class="item-title">Manzana Roja $/500g</strong>
-                    <div class="item-details">
+                    <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$60</strong>
-                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info text-danger fw-bolder addToCart">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
-                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15">
-                    <img src="../../img/productos/mandarina.jpg" alt="Cebolla de Verdeo" class="item-image rounded-circle" height="250" width="250">
+                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15 d-flex flex-column nowrap justify-content-center align-items-center">
+                    <img src="../../img/productos/mandarina.jpg" alt="Cebolla de Verdeo" class="item-image rounded-circle border border-5 border-success" height="250" width="250">
                     <strong class="item-title">Mandarina $/500g</strong>
-                    <div class="item-details">
+                    <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$42</strong>
-                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info text-success fw-bolder addToCart">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
 
-                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15">
-                    <img src="../../img/productos/pomelo.jpg" alt="Zapallo Calabacin" class="item-image rounded-circle" height="250" width="250">
+                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15 d-flex flex-column nowrap justify-content-center align-items-center">
+                    <img src="../../img/productos/pomelo.jpg" alt="Zapallo Calabacin" class="item-image rounded-circle border border-5 border-warning" height="250" width="250">
                     <strong class="item-title">Pomelo $/kg</strong>
-                    <div class="item-details">
+                    <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$60</strong>
-                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info text-warning fw-bolder addToCart">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
-                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15">
-                    <img src="../../img/productos/limon.jpg" alt="Espinaca" class="item-image rounded-circle" height="250" width="250">
+                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15 d-flex flex-column nowrap justify-content-center align-items-center">
+                    <img src="../../img/productos/limon.jpg" alt="Espinaca" class="item-image rounded-circle border border-5 border-danger" height="250" width="250">
                     <strong class="item-title">Limon $/kg</strong>
-                    <div class="item-details">
+                    <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$50</strong>
-                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info text-danger fw-bolder addToCart">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
-                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15">
-                    <img src="../../img/productos/naranja.jpg" alt="Rucula" class="item-image rounded-circle" height="250" width="250">
+                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15 d-flex flex-column nowrap justify-content-center align-items-center">
+                    <img src="../../img/productos/naranja.jpg" alt="Rucula" class="item-image rounded-circle border border-5 border-success" height="250" width="250">
                     <strong class="item-title">Naranja $/kg</strong>
-                    <div class="item-details">
+                    <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$68</strong>
-                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info text-success fw-bolder addToCart">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
-                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15">
-                    <img src="../../img/productos/pera.jpg" alt="Lechuga" class="item-image rounded-circle" height="250" width="250">
+                <div class="item col-10 col-sm-5 col-lg-4 col-xl-3 w-80 w-sm-35 w-lg-15 d-flex flex-column nowrap justify-content-center align-items-center">
+                    <img src="../../img/productos/pera.jpg" alt="Lechuga" class="item-image rounded-circle border border-5 border-warning" height="250" width="250">
                     <strong class="item-title">Pera $/kg</strong>
-                    <div class="item-details">
+                    <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$70</strong>
-                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info text-warning fw-bolder addToCart">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
             </div>
@@ -218,12 +212,12 @@
         </section>
 
         <!--Breadcrumb-->
-        <section>
+        <section class="menuFacilNavegacion">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="../../index.html">Inicio</a></li>
-                  <li class="breadcrumb-item"><a href="tiendaMain.html">Tienda</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Categoria Frutas</li>
+                  <li class="breadcrumb-item"><a href="../../index.html" class="pagAnteriores text-success fw-bolder">Inicio</a></li>
+                  <li class="breadcrumb-item"><a href="tiendaMain.html" class="pagAnteriores text-warning fw-bolder">Tienda</a></li>
+                  <li class="breadcrumb-item active text-danger fw-bolder" aria-current="page">Categoria Frutas</li>
                 </ol>
               </nav>
         </section>
@@ -233,7 +227,7 @@
     <!--Footer-->
     <footer id="footer" class="conteiner d-flex flex-column justify-content-center">
         <div class="row">
-            <h4 class="col-xs-12 fs-1 text-black">¡Siguenos en nuestras redes sociales!</h4>
+            <h3 class="col-xs-12 fs-1 text-black">¡Siguenos en nuestras redes sociales!</h3>
         </div>
         <div class="row">
             <ul id="redes" class="col-xs-4">
