@@ -20,7 +20,7 @@
     }  
 
     #main {
-// Not toma los tmaños titulos
+
         section {
             
             div {
@@ -66,6 +66,28 @@
                 }           
             }
         }
+//NO ME DEJA CAMBIAR EL TAMAñO DE LAS IMAGENES!!!!!!!!!!!!
+        #particulares {
+            .flexFotos {
+                div {
+                    .fotosServicios {
+                        height: 450px;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+
+        #empresas {
+            .flexFotos {
+                div {
+                    .fotosServicios {
+                        height: 450px;
+                        width: 250px;
+                    }
+                }
+            }
+        }
 
         
     }
@@ -95,6 +117,8 @@
             }
         }
     }
+
+    
 }
 
 @media only screen and (min-width:1024px) {
@@ -113,7 +137,7 @@
 
         section {
 
-            div {//no me toma el tama♦o titulares
+            div {
                 .titular-1 {
                     font-size: 80px;
                 }
@@ -141,13 +165,13 @@
         .parrafoMain {
             font-size: 40px;
 
-            //no me toma el tama@o img
+            //no me toma el tama@o img!!!!!!!!!!!!!!!!
             #imgMain {
                 height: 900px;
                 width: 650px;
             }
         }
-//no me toma tama►4o fotos
+//no me toma tama►4o fotos!!!!!!!!!!!!!!!!!!!!!!!!!!
         #empresas {
             
             .flexFotos {
