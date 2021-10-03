@@ -6,15 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Keywords-->
+    <!--Description y Keywords-->
     <meta name="description" content="En Orgánicos de la Costa queremos facilitar que los hogares uruguayos tengan un acceso rapido y comodo a productos que mejoran su alimentacion, para esto creamos nuestra tienda online. Navega dentro de nuestras 6 categorias de productos, agrega al carrito y te lo dejamos en tu casa!">
     <meta name="keywords" content="Productos organicos, Organicos, Verduras organicas, Verduras, Frutas organicas, Frutas, Hierbas frescas, Congelados, Alimentacion saludable, Saludable, Comida saludable, Vida sana, Distribucion de productos">
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="../../css/bootstrap/bootstrap.css">
-
-    <!--Main Css-->
-    <link rel="stylesheet" href="../../css/main.css">
 
     <!--Scss-->
     <link rel="stylesheet" href="../../css/mainScss.css">
@@ -100,14 +97,14 @@
       
     </header>
 
-    <main>
+    <main id="main">
 
         <!--Breadcrumb-->
-        <section>
+        <section class="menuFacilNavegacion">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Tienda</li>
+                  <li class="breadcrumb-item"><a href="../index.html" class="pagAnteriores text-success fw-bolder">Inicio</a></li>
+                  <li class="breadcrumb-item active text-warning fw-bolder" aria-current="page">Tienda</li>
                 </ol>
               </nav>
         </section>
@@ -124,10 +121,7 @@
                   <li><a class="text-success fw-bolder" href="catVerduras.html">Verduras</a></li>
                   <li><a class="text-warning fw-bolder" href="catFrutas.html">Frutas</a></li>
                   <li><a class="text-danger fw-bolder" href="catHierbas.html">Hierbas frescas</a></li>
-                  <li><a class="text-success fw-bolder" href="catEnvasados.html">Envasados</a></li>
-                  <li><a class="text-warning fw-bolder" href="catBebibles.html">Bebibles</a></li>
-                  <li><a class="text-danger fw-bolder" href="catCongelados.html">Congelados</a></li>
-
+                  
                 </ul>
             </div>
             
@@ -145,7 +139,7 @@
                     <strong class="item-title nombreProducto">Ajo $/unidad</strong>
                     <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price precio">$25</strong>
-                        <button class="item-button btn btn-info addToCart text-success">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-success fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                     
                 </div>
@@ -155,7 +149,7 @@
                     <strong class="item-title">Boniato Criollo $/kg</strong>
                     <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$70</strong>
-                        <button class="item-button btn btn-info addToCart text-warning">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-warning fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
@@ -164,7 +158,7 @@
                     <strong class="item-title">Boniato Blanco $/kg</strong>
                     <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$45</strong>
-                        <button class="item-button btn btn-info addToCart text-danger">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-danger fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
@@ -173,7 +167,7 @@
                     <strong class="item-title">Cebolla de Verdeo $/atado</strong>
                     <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$45</strong>
-                        <button class="item-button btn btn-info addToCart text-success">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-success fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
 
@@ -182,7 +176,7 @@
                     <strong class="item-title">Zapallo Calabacin $/kg</strong>
                     <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$50</strong>
-                        <button class="item-button btn btn-info addToCart text-warning">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-warning fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
@@ -191,7 +185,7 @@
                     <strong class="item-title">Espinaca $/atado</strong>
                     <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$65</strong>
-                        <button class="item-button btn btn-info addToCart text-danger">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-danger fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
@@ -200,7 +194,7 @@
                     <strong class="item-title">Rucula $/atado</strong>
                     <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$45</strong>
-                        <button class="item-button btn btn-info addToCart text-success">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-success fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
     
@@ -209,7 +203,7 @@
                     <strong class="item-title">Lechuga $/unidad</strong>
                     <div class="item-details d-flex flex-column nowrap justify-content-center align-items-center">
                         <strong class="item-price">$45</strong>
-                        <button class="item-button btn btn-info addToCart text-warning">AÑADIR AL CARRITO</button>
+                        <button class="item-button btn btn-info addToCart text-warning fw-bolder">AÑADIR AL CARRITO</button>
                     </div>
                 </div>
             </div>
@@ -217,11 +211,11 @@
         </section>
 
         <!--Breadcrumb-->
-        <section>
+        <section class="menuFacilNavegacion">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Tienda</li>
+                  <li class="breadcrumb-item"><a href="../index.html" class="pagAnteriores text-success fw-bolder">Inicio</a></li>
+                  <li class="breadcrumb-item active text-warning fw-bolder" aria-current="page">Tienda</li>
                 </ol>
               </nav>
         </section>
