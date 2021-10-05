@@ -73,14 +73,15 @@ body {
             
             #imgMain {
                 grid-area: imgMain;
-                width: 250px;
-                height: 400px; 
+                
+                img {
+                    width: 40vh;
+                    height: 60vh; 
+                }
+
             }
             
-            #imgMain img {
-                width: 100%;
-                
-            }
+            
             
             #linkTienda {
                 grid-area: linkTienda;
@@ -94,17 +95,18 @@ body {
 
             .flexFotos {
                 display: flex;
-                flex-flow: row nowrap;
+                flex-flow: row wrap;
                 align-items: center;
                 justify-content: space-evenly;
                 margin-bottom: 30px;
 
-                div {
-                    .fotosServicios {
-                        height: 250px;
-                        width: 175px;
-                    }
+                
+                img {
+                    height: 60vh;
+                    width: 40vh;
+                    margin: 30px;
                 }
+                
             }
 
             div {
@@ -124,17 +126,18 @@ body {
 
             .flexFotos {
                 display: flex;
-                flex-flow: row nowrap;
+                flex-flow: row wrap;
                 align-items: center;
                 justify-content: space-evenly;
-                margin-bottom: 30px;
+                
 
-                div {
-                    .fotosServicios {
-                        height: 250px;
-                        width: 175px;
-                    }
+                
+                img {
+                    height: 60vh;
+                    width: 40vh;
+                    margin: 30px;
                 }
+                
             }
             
             

@@ -94,23 +94,23 @@ body {
       body #main .parrafoMain #parrafo3 {
         grid-area: parrafo3; }
       body #main .parrafoMain #imgMain {
-        grid-area: imgMain;
-        width: 250px;
-        height: 400px; }
-      body #main .parrafoMain #imgMain img {
-        width: 100%; }
+        grid-area: imgMain; }
+        body #main .parrafoMain #imgMain img {
+          width: 40vh;
+          height: 60vh; }
       body #main .parrafoMain #linkTienda {
         grid-area: linkTienda;
         transition: all 2s ease-in-out; }
     body #main #particulares .flexFotos {
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: row wrap;
       align-items: center;
       justify-content: space-evenly;
       margin-bottom: 30px; }
-      body #main #particulares .flexFotos div .fotosServicios {
-        height: 250px;
-        width: 175px; }
+      body #main #particulares .flexFotos img {
+        height: 60vh;
+        width: 40vh;
+        margin: 30px; }
     body #main #particulares div .parrafoPages {
       margin: 0px 30px;
       font-family: "Montserrat", sans-serif;
@@ -118,13 +118,13 @@ body {
       color: #0b7e0b; }
     body #main #empresas .flexFotos {
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: row wrap;
       align-items: center;
-      justify-content: space-evenly;
-      margin-bottom: 30px; }
-      body #main #empresas .flexFotos div .fotosServicios {
-        height: 250px;
-        width: 175px; }
+      justify-content: space-evenly; }
+      body #main #empresas .flexFotos img {
+        height: 60vh;
+        width: 40vh;
+        margin: 30px; }
     body #main div .parrafoPages {
       margin: 0px 30px;
       font-family: "Montserrat", sans-serif;
@@ -207,12 +207,6 @@ body {
     width: 600px; }
   #main section div .parrafoPages {
     font-size: 25px; }
-  #main #particulares .flexFotos div .fotosServicios {
-    height: 450px;
-    width: 250px; }
-  #main #empresas .flexFotos div .fotosServicios {
-    height: 450px;
-    width: 250px; }
   #footer {
     height: 300px;
     margin-top: 0px; }
@@ -243,12 +237,6 @@ body {
     width: 900px; }
   #main .parrafoMain {
     font-size: 40px; }
-    #main .parrafoMain #imgMain {
-      height: 900px;
-      width: 650px; }
-  #main #empresas .flexFotos div div .fotosServicios {
-    height: 650px;
-    width: 450px; }
   #main section div #formularioParticulares {
     width: 70vw; }
   #main section div #formularioEmpresas {

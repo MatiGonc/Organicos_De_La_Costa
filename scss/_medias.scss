@@ -65,31 +65,7 @@
                     font-size: 25px;
                 }           
             }
-        }
-//NO ME DEJA CAMBIAR EL TAMAñO DE LAS IMAGENES!!!!!!!!!!!!
-        #particulares {
-            .flexFotos {
-                div {
-                    .fotosServicios {
-                        height: 450px;
-                        width: 250px;
-                    }
-                }
-            }
-        }
-
-        #empresas {
-            .flexFotos {
-                div {
-                    .fotosServicios {
-                        height: 450px;
-                        width: 250px;
-                    }
-                }
-            }
-        }
-
-        
+        }       
     }
     
     #footer {
@@ -165,29 +141,10 @@
         .parrafoMain {
             font-size: 40px;
 
-            //no me toma el tama@o img!!!!!!!!!!!!!!!!
-            #imgMain {
-                height: 900px;
-                width: 650px;
-            }
-        }
-//no me toma tama►4o fotos!!!!!!!!!!!!!!!!!!!!!!!!!!
-        #empresas {
             
-            .flexFotos {
-
-                div {
-
-                    div{
-                        .fotosServicios {
-                            height: 650px;
-                            width: 450px;
-                        }
-                    }
-                }
-            }
         }
 
+        
         section {
 
             div {
