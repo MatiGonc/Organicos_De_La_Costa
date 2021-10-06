@@ -78,6 +78,11 @@ body {
       padding: 5vw; }
     body #main section div ul li a {
       text-decoration: none; }
+    body #main section #imgMain img {
+      width: 60vw; }
+    body #main section #linkTienda {
+      padding: 30px;
+      transition: all 2s ease-in-out; }
     body #main .parrafoMain {
       margin: 0px 50px;
       font-family: "Montserrat", sans-serif;
@@ -85,31 +90,22 @@ body {
       color: #0b7e0b;
       display: grid;
       grid-template-columns: repeat 3, 1fr;
-      grid-template-rows: repeat(7, 1fr);
-      grid-template-areas: 'parrafo1 parrafo1 parrafo1' 'parrafo2 parrafo2 parrafo2' 'parrafo3 parrafo3 parrafo3' 'imgMain imgMain imgMain' 'imgMain imgMain imgMain' 'imgMain imgMain imgMain' 'linkTienda linkTienda linkTienda'; }
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: 'parrafo1 parrafo1 parrafo1' 'parrafo2 parrafo2 parrafo2' 'parrafo3 parrafo3 parrafo3'; }
       body #main .parrafoMain #parrafo1 {
         grid-area: parrafo1; }
       body #main .parrafoMain #parrafo2 {
         grid-area: parrafo2; }
       body #main .parrafoMain #parrafo3 {
         grid-area: parrafo3; }
-      body #main .parrafoMain #imgMain {
-        grid-area: imgMain; }
-        body #main .parrafoMain #imgMain img {
-          width: 40vh;
-          height: 60vh; }
-      body #main .parrafoMain #linkTienda {
-        grid-area: linkTienda;
-        transition: all 2s ease-in-out; }
     body #main #particulares .flexFotos {
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: row nowrap;
       align-items: center;
       justify-content: space-evenly;
       margin-bottom: 30px; }
-      body #main #particulares .flexFotos img {
-        height: 60vh;
-        width: 40vh;
+      body #main #particulares .flexFotos article img {
+        width: 40vw;
         margin: 30px; }
     body #main #particulares div .parrafoPages {
       margin: 0px 30px;
@@ -118,12 +114,11 @@ body {
       color: #0b7e0b; }
     body #main #empresas .flexFotos {
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: row nowrap;
       align-items: center;
       justify-content: space-evenly; }
-      body #main #empresas .flexFotos img {
-        height: 60vh;
-        width: 40vh;
+      body #main #empresas .flexFotos article img {
+        width: 40vw;
         margin: 30px; }
     body #main div .parrafoPages {
       margin: 0px 30px;
