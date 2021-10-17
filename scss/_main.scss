@@ -17,7 +17,7 @@ body {
                 text-align: center;
                 color: rgb(230, 8, 8);
                 font-size: 35px;
-                padding: 5vw;                
+                padding-top: 2vh;
             }
 
             .titular-2 {
@@ -176,7 +176,14 @@ body {
                     }
                 }
             }    
-        }         
+        }
+        
+        .store {
+
+            div {
+                padding: 0;
+            }
+        }
     }
 }
 
