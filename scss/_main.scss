@@ -17,7 +17,7 @@ body {
                 text-align: center;
                 color: rgb(230, 8, 8);
                 font-size: 35px;
-                padding: 5vw;                
+                padding-top: 2vh;
             }
 
             .titular-2 {
@@ -83,17 +83,20 @@ body {
         #particulares {
 
             .flexFotos {
+                
                 display: flex;
                 flex-flow: row nowrap;
                 align-items: center;
-                justify-content: space-evenly;
-                margin-bottom: 30px;
+                justify-content: space-around;
+                
 
                 article {
 
                     img {
+                        height: 60vw;
                         width: 40vw;
-                        margin: 30px;
+                        margin-top: 2em;
+                        margin-bottom: 1em;
                     }    
                 }        
             }
@@ -115,13 +118,16 @@ body {
                 display: flex;
                 flex-flow: row nowrap;
                 align-items: center;
-                justify-content: space-evenly;
+                justify-content: space-around;
                   
                 article {
-                     
+                    margin-bottom: 20px; 
                     img {
+                        height: 60vw;
                         width: 40vw;
-                        margin: 30px;
+                        margin-top: 2em;
+                        margin-bottom: 1em;
+                        
                     }
                 } 
             }    
@@ -130,7 +136,7 @@ body {
         div {
             
             .parrafoPages {
-                margin: 0px 30px;
+                margin: 5vw;
                 font-family: "Montserrat", sans-serif;
                 text-align: center;
                 color: rgb(11, 126, 11); 
@@ -176,7 +182,20 @@ body {
                     }
                 }
             }    
-        }         
+        }
+        
+        .store {
+
+            .conteiner {
+
+                .items {
+                    
+                    .row {
+                        margin: 0;
+                    }
+                }
+            }
+        }
     }
 }
 
