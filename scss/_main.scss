@@ -180,8 +180,14 @@ body {
         
         .store {
 
-            div {
-                padding: 0;
+            .conteiner {
+
+                .items {
+                    
+                    .row {
+                        margin: 0;
+                    }
+                }
             }
         }
     }

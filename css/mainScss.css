@@ -5,6 +5,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   border: solid 10px;
+  border-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,8 +145,8 @@ body {
         margin: 0; }
         body #main .menuFacilNavegacion nav ol .pagAnteriores {
           text-decoration: none; }
-    body #main .store div {
-      padding: 0; }
+    body #main .store .conteiner .items .row {
+      margin: 0; }
 
 #linkTienda:hover {
   transform: scale(1.3); }
@@ -153,6 +154,7 @@ body {
 #footer {
   background-image: linear-gradient(to top, red, yellow, green);
   border: solid 10px;
+  border-color: black;
   height: 200px;
   text-align: center;
   margin-top: 10px; }
