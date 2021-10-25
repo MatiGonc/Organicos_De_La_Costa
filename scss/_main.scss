@@ -25,7 +25,8 @@ body {
                 text-align: center;
                 color: rgb(238, 238, 8);
                 font-size: 35px;
-                padding: 5vw;          
+                padding: 5vw;  
+                margin: 0;        
             }
 
             div {
@@ -38,13 +39,27 @@ body {
                 }
             }
 
+            #logoCarrito {
+                font-size: 5rem;
+            }
+
             #imgMain {
 
                 img {
-                    width: 60vw;   
+                    width: 60vw; 
+                    margin-top: 1rem;
                 }
             }
             
+            #imgCampo {
+                width: 80vw;
+            }
+
+            #imgCanasta {
+                width: 80vw;
+                padding-top: 5vw;
+            }
+
             #linkTienda {
                 padding: 30px;
                 transition: all 2s ease-in-out;
@@ -136,7 +151,7 @@ body {
         div {
             
             .parrafoPages {
-                margin: 5vw;
+                margin: 0 5vw;
                 font-family: "Montserrat", sans-serif;
                 text-align: center;
                 color: rgb(11, 126, 11); 

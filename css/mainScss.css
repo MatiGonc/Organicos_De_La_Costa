@@ -76,11 +76,20 @@ body {
       text-align: center;
       color: #eeee08;
       font-size: 35px;
-      padding: 5vw; }
+      padding: 5vw;
+      margin: 0; }
     body #main section div ul li a {
       text-decoration: none; }
+    body #main section #logoCarrito {
+      font-size: 5rem; }
     body #main section #imgMain img {
-      width: 60vw; }
+      width: 60vw;
+      margin-top: 1rem; }
+    body #main section #imgCampo {
+      width: 80vw; }
+    body #main section #imgCanasta {
+      width: 80vw;
+      padding-top: 5vw; }
     body #main section #linkTienda {
       padding: 30px;
       transition: all 2s ease-in-out; }
@@ -127,7 +136,7 @@ body {
           margin-top: 2em;
           margin-bottom: 1em; }
     body #main div .parrafoPages {
-      margin: 5vw;
+      margin: 0 5vw;
       font-family: "Montserrat", sans-serif;
       text-align: center;
       color: #0b7e0b; }
@@ -204,12 +213,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-  #main section #imgCampo {
-    height: 400px;
-    width: 600px; }
-  #main section #imgCanasta {
-    height: 400px;
-    width: 600px; }
   #main section div .parrafoPages {
     font-size: 25px; }
   #footer {
@@ -235,12 +238,6 @@ body {
     font-size: 70px; }
   #main section div .parrafoPages {
     font-size: 30px; }
-  #main section #imgCampo {
-    height: 600px;
-    width: 900px; }
-  #main section #imgCanasta {
-    height: 600px;
-    width: 900px; }
   #main .parrafoMain {
     font-size: 35px; }
   #main section div #formularioParticulares {
